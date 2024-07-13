@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "spdt"
+version = "0.1.0"
+description = "Python implementation of the streaming parallel decision tree"
+authors = ["Oladapo Kayode Abiodun"]
+readme = "README.md"
+packages = [{include = "spdt"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
